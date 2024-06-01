@@ -72,3 +72,4 @@ $RECYCLE.BIN/
 #################################################################
 # Example: Ignore a specific theme submodule directory (replace 'your-theme' with the theme name)
 # themes/your-theme/
+.hugo_build.lock
