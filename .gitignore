@@ -1,0 +1,80 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built-in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Hugo generated files #
+########################
+public/
+resources/_gen/
+
+# Hugo temporary files #
+########################
+hugo_stats.json
+
+# Node modules (if using Node.js for tooling) #
+###############################################
+node_modules/
+
+# Log files #
+#############
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE and editor files #
+########################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac specific metadata files #
+###############################
+.AppleDouble
+.LSOverride
+
+# Thumbnails #
+##############
+._*
+
+# Files that might appear in the root of a Hugo project #
+########################################################
+netlify.toml
+config.toml
+config.yaml
+config.json
+
+# Environment variable files #
+##############################
+.env
+.env.local
+.env.*.local
+
+# Optional: ignore specific theme directories if using submodules
+#################################################################
+# Example: Ignore a specific theme submodule directory (replace 'your-theme' with the theme name)
+# themes/your-theme/
